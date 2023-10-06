@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hello World! GM have a nice day!!</title>
+<title>Good morning</title>
 </head>
 <body>
 	<h1>Hello World! GM </h1>
