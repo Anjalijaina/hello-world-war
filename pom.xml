@@ -13,7 +13,7 @@
                 <name>a0ncqoqzepvek-artifactory-primary-0-releases</name>
                 <url>https://anjalia.jfrog.io/artifactory/libs-release</url>
             </repository>
-	</distributionManagement>
+        </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
