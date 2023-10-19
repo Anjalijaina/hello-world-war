@@ -31,8 +31,8 @@ pipeline {
 	     label 'slavenode2'
             }
             steps {	 
-		    echo "good "
-		   // sh 'sudo cp $WORKSPACE/target/hello-world-war-1.0.0.war /var/lib/tomcat9/webapps'
+		  //  echo "good "
+		   sh 'sudo cp $WORKSPACE/target/hello-world-war-1.0.0.war /var/lib/tomcat9/webapps'
             }
 		
         }
