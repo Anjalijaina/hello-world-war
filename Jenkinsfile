@@ -18,6 +18,14 @@ pipeline {
 	            sh 'mvn clean package'
             }
 	}
+	stage('tomcatinstallation') {
+	  agent {
+	     label 'slavenode1'
+          }
+            steps {		
+	            sh 'sh myscripttomcat1.sh '
+            }
+	}    
 	stage('Deploy') {
 	   agent {
 	     label 'slavenode2'
